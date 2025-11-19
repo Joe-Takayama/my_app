@@ -26,7 +26,10 @@ SECRET_KEY = 'django-insecure-s7u@y%xowt3hy+_1df1g%&xvz@d-*ctpin2of1$#j7j%w4n(#c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['my-app-fufa.onrender.com',
+                 'localhost',
+                 '127.0.0.1',
+]
 
 
 # Application definition
